@@ -1,0 +1,59 @@
+{
+  "name": "page-piranha",
+  "version": "0.1.0",
+  "description": "LLM based page parser (PDF to text)",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "bin": {
+    "page-piranha": ".bin/page-piranha.js"
+  },
+  "keywords": [
+    "pdf",
+    "convert",
+    "pdf-to-text",
+    "llm",
+    "gemini-flash",
+    "ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianheine/page-piranha.git"
+  },
+  "homepage": "https://github.com/christianheine/page-piranha",
+  "bugs": {
+    "url": "https://github.com/christianheine/page-piranha/issues"
+  },
+  "author": "Christian Heine",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "jorel": "^0.9.3",
+    "ora": "^8.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.22.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

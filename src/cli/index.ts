@@ -1,0 +1,1 @@
+export { pagePiranhaCli } from "./cli";
