@@ -106,7 +106,7 @@ export class PagePiranha {
         );
         return response;
       } else {
-        const { response, meta } = await this.jorEl.ask(
+        const { response, meta } = await this.jorEl.text(
           [prompt, ...contents],
           {
             model: this.model,

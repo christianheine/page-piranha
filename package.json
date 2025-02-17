@@ -1,6 +1,6 @@
 {
   "name": "page-piranha",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "LLM based page parser (PDF to text)",
   "main": "index.js",
   "types": "dist/index.d.ts",
@@ -35,23 +35,23 @@
   "author": "Christian Heine",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.4.1",
-    "commander": "^13.1.0",
-    "dotenv": "^16.4.7",
-    "jorel": "^0.9.3",
-    "ora": "^8.2.0",
-    "zod": "^3.24.1"
+    "chalk": "5.4.1",
+    "commander": "13.1.0",
+    "dotenv": "16.4.7",
+    "jorel": "0.10.0",
+    "ora": "8.2.0",
+    "zod": "3.24.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.19.0",
-    "eslint": "^9.19.0",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-plugin-prettier": "^5.2.3",
-    "globals": "^15.14.0",
-    "prettier": "^3.4.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.7.3",
-    "typescript-eslint": "^8.22.0"
+    "@eslint/js": "9.20.0",
+    "eslint": "9.20.1",
+    "eslint-config-prettier": "10.0.1",
+    "eslint-plugin-prettier": "5.2.3",
+    "globals": "15.15.0",
+    "prettier": "3.5.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3",
+    "typescript-eslint": "8.24.0"
   },
   "engines": {
     "node": ">=18"
